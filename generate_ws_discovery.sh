@@ -1,0 +1,1 @@
+./wsdl2h.exe -P -x -o onvif.h -s -t typemap.dat  https://www.onvif.org/ver10/network/wsdl/remotediscovery.wsdl
