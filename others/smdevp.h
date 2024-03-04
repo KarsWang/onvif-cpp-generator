@@ -50,18 +50,11 @@ A commercial use license is available from Genivia, Inc., contact@genivia.com
 #define SMDEVP_H
 
 #include "stdsoap2.h"
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 #include <openssl/evp.h>
 #include <openssl/hmac.h>
 #include <openssl/ssl.h>
 #include <openssl/err.h>
-
-#ifdef __cplusplus
-}
-#endif
 
 #ifdef __cplusplus
 extern "C" {
